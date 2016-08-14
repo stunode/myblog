@@ -27,7 +27,7 @@ public class BloggerController {
 	private BloggerService bloggerService;
 	
 	/**
-	 * �û���¼
+	 * 用户登录
 	 * @param blogger
 	 * @param request
 	 * @return
@@ -49,7 +49,7 @@ public class BloggerController {
 
 	
 	/**
-	 * ���Ҳ�����Ϣ
+	 * 查找博主信息
 	 * @return
 	 * @throws Exception
 	 */
