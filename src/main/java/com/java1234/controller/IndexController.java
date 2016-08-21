@@ -86,12 +86,12 @@ public class IndexController {
 	 * @return
 	 * @throws Exception
 	 */
-	@RequestMapping("/download")
-	public ModelAndView download()throws Exception{
-		ModelAndView mav=new ModelAndView();
-		mav.addObject("mainPage", "foreground/system/download.jsp");
-		mav.addObject("pageTitle","本站源码下载页面_Java开源博客系统");
-		mav.setViewName("mainTemp");
-		return mav;
-	}
+//	@RequestMapping("/download")
+//	public ModelAndView download()throws Exception{
+//		ModelAndView mav=new ModelAndView();
+//		mav.addObject("mainPage", "foreground/system/download.jsp");
+//		mav.addObject("pageTitle","本站源码下载页面_Java开源博客系统");
+//		mav.setViewName("mainTemp");
+//		return mav;
+//	}
 }

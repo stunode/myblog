@@ -41,8 +41,6 @@ public class BloggerController {
 			return new ModelAndView("admin/main");
 		}catch(Exception e){
 			e.printStackTrace();
-			request.setAttribute("blogger", blogger);
-			request.setAttribute("errorInfo", "�û������������");
 			return new ModelAndView("errors/403");
 		}
 	}
@@ -58,7 +56,7 @@ public class BloggerController {
 		ModelAndView mav=new ModelAndView();
 		mav.addObject("blogger",bloggerService.find());
 		mav.addObject("mainPage", "foreground/blogger/info.jsp");
-		mav.addObject("pageTitle","关于博主_Java开源博客系统");
+		mav.addObject("pageTitle","关于博主");
 		mav.setViewName("mainTemp");
 		return mav;
 	}
